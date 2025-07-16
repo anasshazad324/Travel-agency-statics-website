@@ -16,7 +16,7 @@ include 'connection.php';
   // echo $guest . "<br>";
   // echo $date . "<br>";
   // echo $destination . "<br>";
-  }
+  
 
   
         $sql = "insert into `travelagency` . `booking registration`
@@ -24,6 +24,7 @@ include 'connection.php';
         values('$fullname','$number','$guest','$date','$destination')";
         
         $result = mysqli_query($connection, $sql);
+  }
 ?>
 
 <!DOCTYPE html>
